@@ -53,7 +53,7 @@ Below is a comparison of top commercial IDV orchestration providers, sorted by c
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source repositories for biometric face matching, document scanning, liveness detection, and KYC compliance. Sorted by **GitHub Stars_Count** (descending):
+Curated open-source repositories for biometric face matching, document scanning, liveness detection, and KYC compliance. Sorted by **GitHub_Stars_Count** (descending):
 
 | Repository 📦 | GitHub_Stars ⭐ | Description & Focus Area 🎯 |
 | :--- | :--- | :--- |
