@@ -1,211 +1,114 @@
-# Awesome-Identity-Verification-Orchestration
+# Awesome Identity Verification Orchestration 🛡️
 
-## Top Identity Verification Orchestration Platforms Ecosystem
+![Awesome Identity Verification Orchestration Banner](assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Orchestration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Verification-Orchestration?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Verification-Orchestration?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Verification-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Identity-Verification-Orchestration?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on KYC/IDV Workflows, Document Verification, Biometrics, Liveness, Orchestration & Compliance Onboarding*
+## 🚀 Overview & Market Intelligence
 
-**Last updated: September 2026**
+A curated list of **Identity Verification (IDV) Orchestration Platforms**, **Biometric APIs**, **Document OCR Engines**, **Liveness Detection Libraries**, and **KYC/AML Compliance Frameworks**.
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Identity Verification Orchestration**. These systems combine document checks, face matching, liveness detection, database screening, and workflow orchestration to verify user identities for KYC, onboarding, and compliance.
-
-
-
-**Examples** include Persona, Signicat, Incode, Jumio, Veriff, Onfido (Entrust IDV), Trulioo, ID-Pal, AU10TIX, and Sumsub (the category leaders).
-
-
-
-**Open-source emphasis**: Full production IDV orchestration platforms are almost entirely commercial. Practical open options include **biometric APIs**, document OCR pipelines, face-matching libraries, and early-stage self-hosted KYC scaffolds. This section lists the strongest available open resources and is realistic about the gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Persona](https://withpersona.com/)**  
-
-  Flexible identity verification and orchestration platform with composable modules for document checks, biometrics, database lookups, and no-code workflow building.
-
-
-
-- **[Signicat](https://www.signicat.com/)**  
-
-  European digital identity and verification platform offering eID schemes, document verification, and compliance-oriented identity services.
-
-
-
-- **[Incode](https://incode.com/)**  
-
-  AI-powered identity verification platform focused on biometrics, document authentication, and omnichannel verification experiences.
-
-
-
-- **[Jumio](https://www.jumio.com/)**  
-
-  Enterprise identity verification platform with document verification, biometric authentication, AML tools, and large-scale global coverage.
-
-
-
-- **[Veriff](https://www.veriff.com/)**  
-
-  Identity verification platform known for high automation rates, fast decisions, broad document coverage, and strong liveness/deepfake defenses.
-
-
-
-- **[Onfido / Entrust IDV](https://www.entrust.com/)**  
-
-  Identity verification solution (Onfido acquired by Entrust) providing document and biometric checks with orchestration and fraud detection capabilities.
-
-
-
-- **[Trulioo](https://www.trulioo.com/)**  
-
-  Global identity verification platform specializing in person and business verification, data sources, and compliance workflows.
-
-
-
-- **[ID-Pal](https://www.id-pal.com/)**  
-
-  Identity verification and KYC platform used for customer onboarding with document and biometric verification flows.
-
-
-
-- **[AU10TIX](https://www.au10tix.com/)**  
-
-  Identity verification and authentication platform focused on document intelligence, biometrics, and automated identity decisioning.
-
-
-
-- **[Sumsub](https://sumsub.com/)**  
-
-  Full-stack verification and compliance platform covering KYC, KYB, AML screening, monitoring, and identity orchestration in one suite.
-
-
-
-## Open-Source GitHub Projects
-
-- **[OpenBiometrics](https://openbiometrics.dev/)**  
-
-  Open-source biometric platform (MIT) providing face recognition, liveness detection, document processing (OCR/MRZ), and identity verification APIs—self-hostable.
-
-
-
-- **[KYC Beacon and self-hosted KYC scaffolds](https://github.com/bp-ventures/kyc-beacon)**  
-
-  Early-stage open-source, self-hostable KYC/identity verification projects aiming to cover document checks, face match, liveness, and review workflows.
-
-
-
-- **[FaceOnLive / OpenKYC community components](https://github.com/FaceOnLive/ID-Verification-OpenKYC)**  
-
-  Open community resources for face recognition, liveness (anti-spoofing), and ID document recognition used in identity verification pipelines.
-
-
-
-- **[Document OCR and MRZ open pipelines](https://github.com/)**  
-
-  Open tools (Tesseract, EasyOCR, specialized MRZ parsers) for extracting data from passports, national IDs, and driver’s licenses.
-
-
-
-- **[Face matching and embedding open libraries](https://github.com/)**  
-
-  Open face recognition stacks (e.g., InsightFace, ArcFace-based projects) used for 1:1 selfie-to-document matching.
-
-
-
-- **[Liveness / anti-spoofing open research models](https://github.com/)**  
-
-  Academic and community models for passive and active liveness detection against photo, screen, and mask attacks.
-
-
-
-- **[KYC/KYB automation open prototypes](https://github.com/)**  
-
-  FastAPI and similar open projects combining OCR, face comparison, and basic business-document analysis for experimental KYC flows.
-
-
-
-- **[Workflow orchestration open engines](https://github.com/)**  
-
-  Open workflow tools used to sequence document, biometric, and screening steps in custom verification pipelines.
-
-
-
-- **[Synthetic ID and test-data generators](https://github.com/)**  
-
-  Open utilities for generating synthetic identity documents and faces for testing verification pipelines without real PII.
-
-
-
-- **[Consent and audit-log open components](https://github.com/)**  
-
-  Libraries supporting consent capture and audit trails around identity verification events.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building experimental verification flows with **OpenBiometrics** or open OCR + face-match stacks.
-
-- Using open liveness models as a first layer and escalating uncertain cases to commercial providers.
-
-- Orchestrating commercial IDV vendors behind open workflow engines for multi-vendor strategies.
-
-- Accepting that global document coverage, certified deepfake defense, regulated audit trails, and production SLAs still require commercial platforms (Persona, Veriff, Jumio, Onfido/Entrust, Sumsub, etc.).
-
-- Focusing open-source efforts on data residency, transparency of models, and reducing vendor lock-in for non-regulated or internal use cases.
-
-
-
-**Frameworks for building custom systems**: Capture document + selfie → run open OCR and face match → apply open liveness checks → orchestrate steps in an open workflow engine → escalate failures to a commercial IDV provider or manual review. Suitable for research, internal tools, and low-risk flows. Most regulated businesses rely on commercial identity verification platforms for compliance and accuracy at scale.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Identity verification involves highly sensitive personal data and is subject to KYC/AML and privacy regulations. Open-source or self-built systems require rigorous security, consent management, and legal review. Incorrect verification can create serious compliance and fraud risks. This list is not legal or compliance advice.
-
-
+> 📊 **Market Insights (2026):**
+> The global **Identity Verification (IDV)** market size is estimated at **$15.8 Billion in 2026** and is projected to reach **$32.5 Billion by 2031**, growing at a CAGR of 15.5%. 
+> 
+> **Market Concentration:** The market is **moderately fragmented**. While legacy giants (Jumio, Entrust/Onfido) and hyper-growth unicorns (Persona, Incode, Sumsub, Veriff, Trulioo) capture significant enterprise share, specialized region-specific platforms (Signicat in Europe) and emerging open-source biometric primitives prevent a single "winner-take-all" dynamic.
 
 ---
 
-**Made for compliance, fraud, and product teams building trusted digital onboarding.**
+## 📑 Table of Contents
 
-Let's keep identity verification accurate, privacy-aware, and as open as practical.
+- [☁️ SaaS / Hosted Identity Verification Platforms](#️-saas--hosted-identity-verification-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [☕ Support & Community](#-support--community)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## ☁️ SaaS / Hosted Identity Verification Platforms
+
+Below is a comparison of top commercial IDV orchestration providers, sorted by company size (valuation / revenue):
+
+| Vendor 🏢 | Scale & Size 💰 | Pricing Model 💳 | Free Tier / Trial Limit 🎁 | Description & Core Capabilities 🔍 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Incode](https://incode.com/)** | **$3.0B** Valuation / ~$170M ARR | Enterprise platform licensing + volume-based checks | Sandbox Access (100 free test verifications / 14-day trial) | AI-first identity verification platform focused on biometrics, document authentication, and omnichannel UX. |
+| **[Persona](https://withpersona.com/)** | **$2.0B** Valuation / ~$125M ARR | Custom Growth/Enterprise tiers + per-check overage | **Starter Tier (Free):** 500 free ID verifications / month | Flexible identity verification & orchestration platform with composable modules and no-code workflow builders. |
+| **[Trulioo](https://www.trulioo.com/)** | **$1.8B** Valuation / ~$150M ARR | Enterprise usage-based tiers (starts ~$99/mo base) | Sandbox API Demo License (no production free tier) | Global identity platform specializing in electronic identity verification (eIDV), business verification (KYB), & watchlist screening. |
+| **[Veriff](https://www.veriff.com/)** | **$1.5B** Valuation / ~$110M ARR | Starts at **$0.80/check** ($49/mo commitment) | **15-Day Free Trial:** Includes up to 50 live verification sessions | High-automation IDV known for broad document coverage, fast decisions, and AI deepfake defense. |
+| **[Sumsub](https://sumsub.com/)** | **$1.1B** Valuation / ~$100M ARR | Starts at **$1.35/check** ($149/mo commitment) | **14-Day Free Trial:** Includes 50 free verification checks | Full-stack verification suite covering KYC, KYB, AML screening, transaction monitoring, & orchestration. |
+| **[Onfido / Entrust IDV](https://www.entrust.com/)** | **$650M** Acquired / ~$140M ARR | Pay-per-verification enterprise contracts | Developer Sandbox Access (upon sales consultation demo) | Enterprise identity suite combining document & biometric checks with fraud detection orchestration. |
+| **[AU10TIX](https://www.au10tix.com/)** | **$260M** Valuation / ~$50M ARR | Tiered enterprise plans (starts ~$500/mo minimum) | Product Demo Access (no standalone free trial) | Automation-driven document intelligence, biometric verification, and dynamic identity decisioning. |
+| **[Signicat](https://www.signicat.com/)** | Private (~€140M / $150M ARR) | Volume-based per-transaction pricing | **Free Developer Sandbox Account** via Signicat Dashboard | European digital identity provider integrating eID schemes, electronic signatures, and compliant onboarding. |
+| **[Jumio](https://www.jumio.com/)** | Private (~$200M+ Annual Bookings) | Enterprise custom volume contracts | Proof-of-Concept / Demo Access upon request | Enterprise identity verification, document validation, AML watchlist screening, and biometric authentication. |
+| **[ID-Pal](https://www.id-pal.com/)** | Private (~$10M+ Raised) | Usage-based SaaS subscription tiers | Request-based Free Demo (no instant self-serve trial) | Turnkey identity verification and KYC/AML compliance platform tailored for SMEs and quick integrations. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Curated open-source repositories for biometric face matching, document scanning, liveness detection, and KYC compliance. Sorted by **GitHub Star Count** (descending):
+
+| Repository 📦 | GitHub Stars ⭐ | Description & Focus Area 🎯 |
+| :--- | :--- | :--- |
+| **[kby-ai/FaceRecognition-Android](https://github.com/kby-ai/FaceRecognition-Android)** | [<img src="https://img.shields.io/github/stars/kby-ai/FaceRecognition-Android?style=social&color=white" alt="kby-ai Stars"/>](https://github.com/kby-ai/FaceRecognition-Android/stargazers) | Native Android SDK providing offline face recognition, liveness detection, and biometric ID matching. |
+| **[moov-io/watchman](https://github.com/moov-io/watchman)** | [<img src="https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white" alt="moov-io Stars"/>](https://github.com/moov-io/watchman/stargazers) | Open-source Go engine for AML, OFAC, PEP, and sanction list screening in KYC workflows. |
+| **[microblink/blinkid-android](https://github.com/microblink/blinkid-android)** | [<img src="https://img.shields.io/github/stars/microblink/blinkid-android?style=social&color=white" alt="microblink Android Stars"/>](https://github.com/microblink/blinkid-android/stargazers) | AI-driven mobile SDK for scanning and OCR data extraction from passports, IDs, and driver's licenses. |
+| **[FaceOnLive/ID-Verification-OpenKYC](https://github.com/FaceOnLive/ID-Verification-OpenKYC)** | [<img src="https://img.shields.io/github/stars/FaceOnLive/ID-Verification-OpenKYC?style=social&color=white" alt="FaceOnLive Stars"/>](https://github.com/FaceOnLive/ID-Verification-OpenKYC/stargazers) | Community-driven OpenKYC components for face liveness anti-spoofing and document recognition pipelines. |
+| **[microblink/blinkid-ios](https://github.com/microblink/blinkid-ios)** | [<img src="https://img.shields.io/github/stars/microblink/blinkid-ios?style=social&color=white" alt="microblink iOS Stars"/>](https://github.com/microblink/blinkid-ios/stargazers) | iOS SDK for identity document OCR scanning and identity verification data extraction. |
+| **[recognito-vision/Linux-FaceRecognition-FaceLivenessDetection](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection)** | [<img src="https://img.shields.io/github/stars/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection?style=social&color=white" alt="recognito Stars"/>](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/stargazers) | Linux server SDK for high-performance facial matching, passive liveness checks, and eKYC pipelines. |
+| **[OpenBiometrics](https://openbiometrics.dev/)** | [<img src="https://img.shields.io/github/stars/openbiometrics/openbiometrics?style=social&color=white" alt="OpenBiometrics Stars"/>](https://github.com/openbiometrics/openbiometrics/stargazers) | Self-hostable biometric engine (MIT) offering face matching, passive liveness, MRZ parsing, and REST APIs. |
+| **[bp-ventures/kyc-beacon](https://github.com/bp-ventures/kyc-beacon)** | [<img src="https://img.shields.io/github/stars/bp-ventures/kyc-beacon?style=social&color=white" alt="KYC Beacon Stars"/>](https://github.com/bp-ventures/kyc-beacon/stargazers) | Self-hosted open-source KYC scaffold combining document OCR, selfie liveness, and review dashboards. |
+
+---
+
+### 💡 Building Custom Identity Verification Workflows
+
+When orchestrating identity verification with open-source tools:
+1. **Document Capture & Extraction:** Use libraries like `microblink/blinkid-android` or Tesseract/EasyOCR for MRZ and barcode parsing.
+2. **Biometric Face Verification:** Apply `kby-ai/FaceRecognition-Android` or `recognito-vision` for 1:1 face embedding match between ID photo and selfie.
+3. **Liveness & Anti-Spoofing:** Deploy `FaceOnLive/ID-Verification-OpenKYC` to detect screen replay, print photos, or 3D mask attacks.
+4. **Sanctions & Compliance Screening:** Integrate `moov-io/watchman` to auto-check user names against global OFAC, EU, and UN sanction lists.
+
+> 🔒 **Enterprise Note:** For regulated financial institutions (FinTech, Crypto, Banking), full compliance typically requires commercial IDV orchestrators (Persona, Veriff, Sumsub) due to certified deepfake defenses, global document coverage, and legal audit trails.
+
+---
+
+## 🛠️ How to Contribute
+
+Contributions are highly appreciated! To submit a new tool or update an existing entry:
+
+1. Fork this repository. 🍴
+2. Modify `README.md` with factual descriptions and links. 📝
+3. Ensure open-source projects include star count badges linked to stargazers. 🌟
+4. Open a Pull Request with a clear summary of changes. 🚀
+
+---
+
+## 💖 Support & Community
+
+If you found this resource helpful, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it.
+- 🔀 **Fork it** to customize your own identity verification workflows.
+- 📢 **Share it** with fellow identity, compliance, and fraud engineers!
+- ☕ **Buy Me a Coffee:** Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** for informational and educational purposes only.
+- Identity verification involves processing sensitive PII data subject to GDPR, CCPA, and global KYC/AML mandates. Ensure proper security, encryption, and legal compliance before deploying any self-hosted or open-source solutions.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Identity-Verification-Orchestration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Identity-Verification-Orchestration&type=date&legend=top-left)
