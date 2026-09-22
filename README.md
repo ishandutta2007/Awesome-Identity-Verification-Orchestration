@@ -53,9 +53,9 @@ Below is a comparison of top commercial IDV orchestration providers, sorted by c
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source repositories for biometric face matching, document scanning, liveness detection, and KYC compliance. Sorted by **GitHub Star Count** (descending):
+Curated open-source repositories for biometric face matching, document scanning, liveness detection, and KYC compliance. Sorted by **GitHub Stars_Count** (descending):
 
-| Repository 📦 | GitHub Stars ⭐ | Description & Focus Area 🎯 |
+| Repository 📦 | GitHub_Stars ⭐ | Description & Focus Area 🎯 |
 | :--- | :--- | :--- |
 | **[kby-ai/FaceRecognition-Android](https://github.com/kby-ai/FaceRecognition-Android)** | [<img src="https://img.shields.io/github/stars/kby-ai/FaceRecognition-Android?style=social&color=white" alt="kby-ai Stars"/>](https://github.com/kby-ai/FaceRecognition-Android/stargazers) | Native Android SDK providing offline face recognition, liveness detection, and biometric ID matching. |
 | **[moov-io/watchman](https://github.com/moov-io/watchman)** | [<img src="https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white" alt="moov-io Stars"/>](https://github.com/moov-io/watchman/stargazers) | Open-source Go engine for AML, OFAC, PEP, and sanction list screening in KYC workflows. |
@@ -86,7 +86,7 @@ Contributions are highly appreciated! To submit a new tool or update an existing
 
 1. Fork this repository. 🍴
 2. Modify `README.md` with factual descriptions and links. 📝
-3. Ensure open-source projects include star count badges linked to stargazers. 🌟
+3. Ensure open-source projects include Stars_Count badges linked to stargazers. 🌟
 4. Open a Pull Request with a clear summary of changes. 🚀
 
 ---
